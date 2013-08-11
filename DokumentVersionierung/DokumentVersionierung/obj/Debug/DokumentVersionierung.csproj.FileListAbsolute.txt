@@ -1,0 +1,12 @@
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.FormDokumentInfo.resources
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.Properties.Resources.resources
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.Ribbon1.resources
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.csproj.GenerateResource.Cache
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\bin\Debug\DokumentVersionierung.dll
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\bin\Debug\DokumentVersionierung.pdb
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\bin\Debug\DokumentVersionierung.dll.manifest
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\bin\Debug\DokumentVersionierung.vsto
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.dll
+\\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.pdb
