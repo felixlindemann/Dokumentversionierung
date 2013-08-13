@@ -42,9 +42,17 @@
             this.buttonRaiseVer = this.Factory.CreateRibbonButton();
             this.buttonRaiseBuild = this.Factory.CreateRibbonButton();
             this.button4 = this.Factory.CreateRibbonButton();
+            this.groupMarker = this.Factory.CreateRibbonGroup();
+            this.buttonRemoveMarker = this.Factory.CreateRibbonButton();
+            this.buttonWrong = this.Factory.CreateRibbonButton();
+            this.buttonDoubleCheck = this.Factory.CreateRibbonButton();
+            this.buttonEdit = this.Factory.CreateRibbonButton();
+            this.buttonMarkExtraDocument = this.Factory.CreateRibbonButton();
+            this.buttonNoAddValue = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.tabHNU.SuspendLayout();
             this.groupVersionierung.SuspendLayout();
+            this.groupMarker.SuspendLayout();
             // 
             // tab1
             // 
@@ -61,6 +69,7 @@
             // tabHNU
             // 
             this.tabHNU.Groups.Add(this.groupVersionierung);
+            this.tabHNU.Groups.Add(this.groupMarker);
             this.tabHNU.Label = "HNU";
             this.tabHNU.Name = "tabHNU";
             // 
@@ -106,6 +115,53 @@
             this.button4.ShowImage = true;
             this.button4.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button4_Click);
             // 
+            // groupMarker
+            // 
+            this.groupMarker.Items.Add(this.buttonNoAddValue);
+            this.groupMarker.Items.Add(this.buttonMarkExtraDocument);
+            this.groupMarker.Items.Add(this.buttonEdit);
+            this.groupMarker.Items.Add(this.buttonDoubleCheck);
+            this.groupMarker.Items.Add(this.buttonWrong);
+            this.groupMarker.Items.Add(this.buttonRemoveMarker);
+            this.groupMarker.Label = "Markieren";
+            this.groupMarker.Name = "groupMarker";
+            // 
+            // buttonRemoveMarker
+            // 
+            this.buttonRemoveMarker.Label = "Markierung entfernen";
+            this.buttonRemoveMarker.Name = "buttonRemoveMarker";
+            this.buttonRemoveMarker.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonRemoveMarker_Click);
+            // 
+            // buttonWrong
+            // 
+            this.buttonWrong.Label = "Nein! Das ist Falsch";
+            this.buttonWrong.Name = "buttonWrong";
+            this.buttonWrong.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonWrong_Click);
+            // 
+            // buttonDoubleCheck
+            // 
+            this.buttonDoubleCheck.Label = "DoubleCheck - Stimmt das so?";
+            this.buttonDoubleCheck.Name = "buttonDoubleCheck";
+            this.buttonDoubleCheck.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonDoubleCheck_Click);
+            // 
+            // buttonEdit
+            // 
+            this.buttonEdit.Label = "Überarbeiten / Präzisieren";
+            this.buttonEdit.Name = "buttonEdit";
+            this.buttonEdit.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonEdit_Click);
+            // 
+            // buttonMarkExtraDocument
+            // 
+            this.buttonMarkExtraDocument.Label = "Nicht in dieser Veröffentlichung - sonst ok";
+            this.buttonMarkExtraDocument.Name = "buttonMarkExtraDocument";
+            this.buttonMarkExtraDocument.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonMarkExtraDocument_Click);
+            // 
+            // buttonNoAddValue
+            // 
+            this.buttonNoAddValue.Label = "Kein Mehrwert. Ggf. Streichen";
+            this.buttonNoAddValue.Name = "buttonNoAddValue";
+            this.buttonNoAddValue.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonNoAddValue_Click);
+            // 
             // Ribbon1
             // 
             this.Name = "Ribbon1";
@@ -118,6 +174,8 @@
             this.tabHNU.PerformLayout();
             this.groupVersionierung.ResumeLayout(false);
             this.groupVersionierung.PerformLayout();
+            this.groupMarker.ResumeLayout(false);
+            this.groupMarker.PerformLayout();
 
         }
 
@@ -131,6 +189,13 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonRaiseVer;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonRaiseBuild;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button4;
+        internal Microsoft.Office.Tools.Ribbon.RibbonGroup groupMarker;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonMarkExtraDocument;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonEdit;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonDoubleCheck;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonWrong;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonRemoveMarker;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton buttonNoAddValue;
     }
 
     partial class ThisRibbonCollection

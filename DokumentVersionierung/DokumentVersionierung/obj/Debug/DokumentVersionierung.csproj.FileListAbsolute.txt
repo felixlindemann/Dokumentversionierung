@@ -10,3 +10,15 @@
 \\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
 \\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.dll
 \\psf\home\documents\visual studio 2010\Projects\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.pdb
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Debug\DokumentVersionierung.dll
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Debug\DokumentVersionierung.pdb
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Debug\DokumentVersionierung.dll.manifest
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Debug\DokumentVersionierung.vsto
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.FormDokumentInfo.resources
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.Properties.Resources.resources
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.Ribbon1.resources
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.csproj.GenerateResource.Cache
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.dll
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Debug\DokumentVersionierung.pdb

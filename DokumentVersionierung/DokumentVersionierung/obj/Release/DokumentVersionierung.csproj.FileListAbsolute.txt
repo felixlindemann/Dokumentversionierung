@@ -1,0 +1,12 @@
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Release\DokumentVersionierung.dll
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Release\DokumentVersionierung.pdb
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Release\DokumentVersionierung.dll.manifest
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Release\DokumentVersionierung.vsto
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Release\DokumentVersionierung.FormDokumentInfo.resources
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Release\DokumentVersionierung.Properties.Resources.resources
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Release\DokumentVersionierung.Ribbon1.resources
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Release\DokumentVersionierung.csproj.GenerateResource.Cache
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Release\DokumentVersionierung.dll
+\\psf\Home\Documents\git\Dokumentversionierung\DokumentVersionierung\DokumentVersionierung\obj\Release\DokumentVersionierung.pdb
