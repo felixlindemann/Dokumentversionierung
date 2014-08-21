@@ -38,16 +38,16 @@
             this.group1 = this.Factory.CreateRibbonGroup();
             this.tabHNU = this.Factory.CreateRibbonTab();
             this.groupVersionierung = this.Factory.CreateRibbonGroup();
+            this.groupMarker = this.Factory.CreateRibbonGroup();
+            this.buttonMarkExtraDocument = this.Factory.CreateRibbonButton();
+            this.buttonEdit = this.Factory.CreateRibbonButton();
+            this.buttonDoubleCheck = this.Factory.CreateRibbonButton();
+            this.buttonWrong = this.Factory.CreateRibbonButton();
+            this.buttonRemoveMarker = this.Factory.CreateRibbonButton();
             this.buttonRaiseRev = this.Factory.CreateRibbonButton();
             this.buttonRaiseVer = this.Factory.CreateRibbonButton();
             this.buttonRaiseBuild = this.Factory.CreateRibbonButton();
             this.button4 = this.Factory.CreateRibbonButton();
-            this.groupMarker = this.Factory.CreateRibbonGroup();
-            this.buttonRemoveMarker = this.Factory.CreateRibbonButton();
-            this.buttonWrong = this.Factory.CreateRibbonButton();
-            this.buttonDoubleCheck = this.Factory.CreateRibbonButton();
-            this.buttonEdit = this.Factory.CreateRibbonButton();
-            this.buttonMarkExtraDocument = this.Factory.CreateRibbonButton();
             this.buttonNoAddValue = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.tabHNU.SuspendLayout();
@@ -82,6 +82,55 @@
             this.groupVersionierung.Label = "Versionierung";
             this.groupVersionierung.Name = "groupVersionierung";
             // 
+            // groupMarker
+            // 
+            this.groupMarker.Items.Add(this.buttonNoAddValue);
+            this.groupMarker.Items.Add(this.buttonMarkExtraDocument);
+            this.groupMarker.Items.Add(this.buttonEdit);
+            this.groupMarker.Items.Add(this.buttonDoubleCheck);
+            this.groupMarker.Items.Add(this.buttonWrong);
+            this.groupMarker.Items.Add(this.buttonRemoveMarker);
+            this.groupMarker.Label = "Markieren";
+            this.groupMarker.Name = "groupMarker";
+            // 
+            // buttonMarkExtraDocument
+            // 
+            this.buttonMarkExtraDocument.Image = global::DokumentVersionierung.Properties.Resources.MoveToFolderHS;
+            this.buttonMarkExtraDocument.Label = "Nicht in dieser Veröffentlichung - sonst ok";
+            this.buttonMarkExtraDocument.Name = "buttonMarkExtraDocument";
+            this.buttonMarkExtraDocument.ShowImage = true;
+            this.buttonMarkExtraDocument.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonMarkExtraDocument_Click);
+            // 
+            // buttonEdit
+            // 
+            this.buttonEdit.Image = global::DokumentVersionierung.Properties.Resources.EditTask;
+            this.buttonEdit.Label = "Überarbeiten / Präzisieren";
+            this.buttonEdit.Name = "buttonEdit";
+            this.buttonEdit.ShowImage = true;
+            this.buttonEdit.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonEdit_Click);
+            // 
+            // buttonDoubleCheck
+            // 
+            this.buttonDoubleCheck.Image = global::DokumentVersionierung.Properties.Resources.BreakpointHS;
+            this.buttonDoubleCheck.Label = "DoubleCheck - Stimmt das so?";
+            this.buttonDoubleCheck.Name = "buttonDoubleCheck";
+            this.buttonDoubleCheck.ShowImage = true;
+            this.buttonDoubleCheck.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonDoubleCheck_Click);
+            // 
+            // buttonWrong
+            // 
+            this.buttonWrong.Image = global::DokumentVersionierung.Properties.Resources.RightsRestrictedHS;
+            this.buttonWrong.Label = "Nein! Das ist Falsch";
+            this.buttonWrong.Name = "buttonWrong";
+            this.buttonWrong.ShowImage = true;
+            this.buttonWrong.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonWrong_Click);
+            // 
+            // buttonRemoveMarker
+            // 
+            this.buttonRemoveMarker.Label = "Markierung entfernen";
+            this.buttonRemoveMarker.Name = "buttonRemoveMarker";
+            this.buttonRemoveMarker.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonRemoveMarker_Click);
+            // 
             // buttonRaiseRev
             // 
             this.buttonRaiseRev.Image = global::DokumentVersionierung.Properties.Resources.Flag_greenHS;
@@ -115,51 +164,12 @@
             this.button4.ShowImage = true;
             this.button4.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button4_Click);
             // 
-            // groupMarker
-            // 
-            this.groupMarker.Items.Add(this.buttonNoAddValue);
-            this.groupMarker.Items.Add(this.buttonMarkExtraDocument);
-            this.groupMarker.Items.Add(this.buttonEdit);
-            this.groupMarker.Items.Add(this.buttonDoubleCheck);
-            this.groupMarker.Items.Add(this.buttonWrong);
-            this.groupMarker.Items.Add(this.buttonRemoveMarker);
-            this.groupMarker.Label = "Markieren";
-            this.groupMarker.Name = "groupMarker";
-            // 
-            // buttonRemoveMarker
-            // 
-            this.buttonRemoveMarker.Label = "Markierung entfernen";
-            this.buttonRemoveMarker.Name = "buttonRemoveMarker";
-            this.buttonRemoveMarker.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonRemoveMarker_Click);
-            // 
-            // buttonWrong
-            // 
-            this.buttonWrong.Label = "Nein! Das ist Falsch";
-            this.buttonWrong.Name = "buttonWrong";
-            this.buttonWrong.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonWrong_Click);
-            // 
-            // buttonDoubleCheck
-            // 
-            this.buttonDoubleCheck.Label = "DoubleCheck - Stimmt das so?";
-            this.buttonDoubleCheck.Name = "buttonDoubleCheck";
-            this.buttonDoubleCheck.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonDoubleCheck_Click);
-            // 
-            // buttonEdit
-            // 
-            this.buttonEdit.Label = "Überarbeiten / Präzisieren";
-            this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonEdit_Click);
-            // 
-            // buttonMarkExtraDocument
-            // 
-            this.buttonMarkExtraDocument.Label = "Nicht in dieser Veröffentlichung - sonst ok";
-            this.buttonMarkExtraDocument.Name = "buttonMarkExtraDocument";
-            this.buttonMarkExtraDocument.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonMarkExtraDocument_Click);
-            // 
             // buttonNoAddValue
             // 
+            this.buttonNoAddValue.Image = global::DokumentVersionierung.Properties.Resources.Erase;
             this.buttonNoAddValue.Label = "Kein Mehrwert. Ggf. Streichen";
             this.buttonNoAddValue.Name = "buttonNoAddValue";
+            this.buttonNoAddValue.ShowImage = true;
             this.buttonNoAddValue.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonNoAddValue_Click);
             // 
             // Ribbon1

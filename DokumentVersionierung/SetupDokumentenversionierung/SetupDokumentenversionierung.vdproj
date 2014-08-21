@@ -15,26 +15,26 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_477F277474E047E0BD3B2B2B7F652AFF"
+        "MsmKey" = "8:_2F51461AF2B0406C894095906BEDBC34"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_560BD47A65FF41548018E8ECA286F7F2"
-        "OwnerKey" = "8:_D3A829B08B6D4519A2AB6A6B72348068"
+        "OwnerKey" = "8:_C627839E7837474DB5533C07DA07C2FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_6D5FD709E9A0B83420DCBE587A1DB849"
-        "OwnerKey" = "8:_D3A829B08B6D4519A2AB6A6B72348068"
+        "OwnerKey" = "8:_C627839E7837474DB5533C07DA07C2FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_92BD1AB72F4FD471C5BFED5BAD927B5C"
-        "OwnerKey" = "8:_D3A829B08B6D4519A2AB6A6B72348068"
+        "OwnerKey" = "8:_C627839E7837474DB5533C07DA07C2FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -45,20 +45,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B2326CB60FC94475B585FEF5D2A4C815"
+        "MsmKey" = "8:_C627839E7837474DB5533C07DA07C2FE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D3A829B08B6D4519A2AB6A6B72348068"
+        "MsmKey" = "8:_F530D046AC4A47679D8DC7168D678794"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_FBC7C543B3FC46C03C0F1F7995E4FA0B"
-        "OwnerKey" = "8:_D3A829B08B6D4519A2AB6A6B72348068"
+        "OwnerKey" = "8:_C627839E7837474DB5533C07DA07C2FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -76,13 +76,13 @@
         "Entry"
         {
         "MsmKey" = "8:_FCFD85BA4A49CF7249E70DED1A758634"
-        "OwnerKey" = "8:_D3A829B08B6D4519A2AB6A6B72348068"
+        "OwnerKey" = "8:_C627839E7837474DB5533C07DA07C2FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_FDB2057729B9DCD2052BCCAF3F5FC8FC"
-        "OwnerKey" = "8:_D3A829B08B6D4519A2AB6A6B72348068"
+        "OwnerKey" = "8:_C627839E7837474DB5533C07DA07C2FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -94,7 +94,7 @@
         "Entry"
         {
         "MsmKey" = "8:_FED8F05CF1D0AC3382BB198F85985038"
-        "OwnerKey" = "8:_D3A829B08B6D4519A2AB6A6B72348068"
+        "OwnerKey" = "8:_C627839E7837474DB5533C07DA07C2FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -106,7 +106,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D3A829B08B6D4519A2AB6A6B72348068"
+        "OwnerKey" = "8:_C627839E7837474DB5533C07DA07C2FE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -170,6 +170,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
         "Release"
@@ -194,6 +207,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -224,7 +250,7 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_477F277474E047E0BD3B2B2B7F652AFF"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2F51461AF2B0406C894095906BEDBC34"
             {
             "SourcePath" = "8:\\\\psf\\Home\\Documents\\git\\Dokumentversionierung\\DokumentVersionierung\\DokumentVersionierung\\bin\\Release\\DokumentVersionierung.vsto"
             "TargetName" = "8:DokumentVersionierung.vsto"
@@ -337,7 +363,7 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B2326CB60FC94475B585FEF5D2A4C815"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F530D046AC4A47679D8DC7168D678794"
             {
             "SourcePath" = "8:\\\\psf\\Home\\Documents\\git\\Dokumentversionierung\\DokumentVersionierung\\DokumentVersionierung\\bin\\Release\\DokumentVersionierung.dll.manifest"
             "TargetName" = "8:DokumentVersionierung.dll.manifest"
@@ -1195,7 +1221,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D3A829B08B6D4519A2AB6A6B72348068"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C627839E7837474DB5533C07DA07C2FE"
             {
             "SourcePath" = "8:\\\\psf\\Home\\Documents\\git\\Dokumentversionierung\\DokumentVersionierung\\DokumentVersionierung\\obj\\Release\\DokumentVersionierung.dll"
             "TargetName" = "8:"
@@ -1215,7 +1241,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:Release|Any CPU"
+            "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{0AE6A03F-5EE9-4F38-ADCD-50649CACBC57}"
             "ShowKeyOutput" = "11:TRUE"

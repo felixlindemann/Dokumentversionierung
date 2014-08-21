@@ -243,6 +243,45 @@
   <ItemGroup>
     <None Include="Resources\Flag_greenHS.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XSDSchema_ImportIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApproveReject_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BreakpointHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditTask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IgnoreIssue_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveToFolderHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NextPageHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReduceSize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RightsRestrictedHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SubmitForApproval_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaskHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WarningHS.png" />
+  </ItemGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- Include additional build rules for an Office application add-in. -->
